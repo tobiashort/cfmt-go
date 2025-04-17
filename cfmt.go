@@ -58,6 +58,24 @@ func Fprintln(w io.Writer, a ...any) {
 	fmt.Fprintln(w, a...)
 }
 
+func Sprint(a ...any) string {
+	for i := range a {
+		a[i] = clr(fmt.Sprint(a[i]), ansi.Reset)
+	}
+	return fmt.Sprint(a...)
+}
+
+func Sprintf(format string, a ...any) string {
+	return fmt.Sprintf(clr(format, ansi.Reset), a...)
+}
+
+func Sprintln(a ...any) string {
+	for i := range a {
+		a[i] = clr(fmt.Sprint(a[i]), ansi.Reset)
+	}
+	return fmt.Sprintln(a...)
+}
+
 func stoc(s string) ansi.Color {
 	switch s {
 	case "r":
