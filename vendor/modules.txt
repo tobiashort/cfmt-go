@@ -1,3 +1,14 @@
 # github.com/tobiashort/ansi v0.0.0-20250409185037-898402ec015c
 ## explicit; go 1.24.1
 github.com/tobiashort/ansi
+# github.com/tobiashort/isatty v0.0.0-20250418132835-4b46a376688b
+## explicit; go 1.24.2
+github.com/tobiashort/isatty
+# golang.org/x/sys v0.32.0
+## explicit; go 1.23.0
+golang.org/x/sys/plan9
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/term v0.31.0
+## explicit; go 1.23.0
+golang.org/x/term

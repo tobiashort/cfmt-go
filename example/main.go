@@ -113,6 +113,4 @@ func main() {
 	fmt.Print(cfmt.Sprintln("This", "is", "#b{blue}"))
 	fmt.Print(cfmt.Sprintln("This", "is", "#p{purple}"))
 	fmt.Print(cfmt.Sprintln("This", "is", "#c{cyan}"))
-
-	fmt.Printf("\n")
 }
