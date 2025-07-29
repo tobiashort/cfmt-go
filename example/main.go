@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tobiashort/cfmt"
+	"github.com/tobiashort/cfmt-go"
 )
 
 func main() {
