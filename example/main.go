@@ -113,4 +113,10 @@ func main() {
 	fmt.Print(cfmt.Sprintln("This", "is", "#b{blue}"))
 	fmt.Print(cfmt.Sprintln("This", "is", "#p{purple}"))
 	fmt.Print(cfmt.Sprintln("This", "is", "#c{cyan}"))
+
+	fmt.Printf("\n")
+
+	cfmt.Println("This", "is", "#rB{red and bold}")
+	cfmt.Println("This", "is", "#gU{green and underlined}")
+	cfmt.Println("This", "is", "#yR{yellow reversed}")
 }

@@ -1,4 +1,6 @@
-github.com/tobiashort/ansi-go v0.0.0-20250729191540-72438c61f4ff h1:d91zcoC5EB7SyOwXym+eWYtFL+lRwxJbc3B5Oj7xZIs=
-github.com/tobiashort/ansi-go v0.0.0-20250729191540-72438c61f4ff/go.mod h1:yPoTE564mrx3g7842t9vvduaGlzo38iKRjIqtGANbyU=
-github.com/tobiashort/isatty-go v0.0.0-20250729191520-f567daa300f4 h1:QJRror5GGCrzPq2UhOH8QBFwSEnGMCZuGV0CRNtMccg=
-github.com/tobiashort/isatty-go v0.0.0-20250729191520-f567daa300f4/go.mod h1:SR1HPbCAU42WyNiMZUkT4uaFR0BhWEUI++hmevlg46Y=
+github.com/tobiashort/ansi-go v0.0.0-20250806123135-586338ad067b h1:BMEg8tEMaKJ6NCa/EJTe2wwjgtb3XUSS8vF1wAbn5k0=
+github.com/tobiashort/ansi-go v0.0.0-20250806123135-586338ad067b/go.mod h1:yPoTE564mrx3g7842t9vvduaGlzo38iKRjIqtGANbyU=
+github.com/tobiashort/ansi-go v0.0.0-20250806124809-2629ce31199d h1:KCznFY8B2c+HW83hT67OEDLmNA4t5sEGrjHVDLA6ZhY=
+github.com/tobiashort/ansi-go v0.0.0-20250806124809-2629ce31199d/go.mod h1:yPoTE564mrx3g7842t9vvduaGlzo38iKRjIqtGANbyU=
+github.com/tobiashort/isatty-go v0.0.0-20250729193227-00bbda39413c h1:bHu0yDhCDLYWwUvEf+5KUOzb2VNX8F5E046AWbHkHeY=
+github.com/tobiashort/isatty-go v0.0.0-20250729193227-00bbda39413c/go.mod h1:SR1HPbCAU42WyNiMZUkT4uaFR0BhWEUI++hmevlg46Y=
