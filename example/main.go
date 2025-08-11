@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/tobiashort/ansi-go"
 	"github.com/tobiashort/cfmt-go"
 )
 
@@ -119,4 +120,12 @@ func main() {
 	cfmt.Println("This", "is", "#rB{red and bold}")
 	cfmt.Println("This", "is", "#gU{green and underlined}")
 	cfmt.Println("This", "is", "#yR{yellow reversed}")
+
+	fmt.Printf("\n")
+
+	cfmt.Begin(ansi.Purple)
+	fmt.Println("what follows now  is...")
+	fmt.Println("...in purple.")
+	cfmt.End()
+	fmt.Println("and now back to normal")
 }

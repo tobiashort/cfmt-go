@@ -211,3 +211,11 @@ func clr(str string, reset ansi.Decor) string {
 	}
 	return str
 }
+
+func Begin(decor ansi.Decor) {
+	fmt.Print(decor)
+}
+
+func End() {
+	fmt.Print(ansi.Reset)
+}
