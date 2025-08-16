@@ -123,7 +123,7 @@ func main() {
 
 	fmt.Printf("\n")
 
-	cfmt.Begin(ansi.Purple)
+	cfmt.Begin(ansi.DecorPurple)
 	fmt.Println("what follows now  is...")
 	fmt.Println("...in purple.")
 	cfmt.End()
